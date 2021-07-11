@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import Logo from '../../images/Next-logo.png';
 import './MyNavbar.css';
+import { Button } from '../Button';
 
 function MyNavbar() {
   const [clicked, setClick] = useState(false);
@@ -30,6 +31,7 @@ function MyNavbar() {
           );
         })}
       </ul>
+      <Button>Contact</Button>
     </nav>
   );
 }
