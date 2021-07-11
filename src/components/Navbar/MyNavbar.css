@@ -1,0 +1,36 @@
+.NavbarItems {
+  background: linear-gradient(
+    90deg,
+    rgb(207, 207, 207) 0%,
+    rgb(153, 153, 153) 100%
+  );
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  width: 250px;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 1.6rem;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
